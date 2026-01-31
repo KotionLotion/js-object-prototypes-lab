@@ -5,14 +5,16 @@
     studentId: '12345',
     courses: [],
 
+        //methods work as functions inside objects.
         getFullName() {
             return `${this.firstName} ${this.lastName}`;
+            //this. refers to the current object (student object)
         },
 
         enrollCourse(courseName) {
             this.courses.push(courseName);
             console.log(`${this.getFullName()} has been enrolled in ${courseName}.`);
-
+            //push() adds the courseName to the end of the  courses array
         },
 
         getCourseCount() {
