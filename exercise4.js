@@ -6,7 +6,7 @@ const book = {
     year: 2008,
     isbn: '978-0596517748'
 
-};
+}; 
 
 function displayProperty(obj, propertyName) {
     console.log(obj[propertyName]);
