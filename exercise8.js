@@ -12,12 +12,8 @@ const library = {
 
     listAllBooks() {
         this.books.forEach(book => console.log(book.title));
-    },
-
-    // Bonus
-    findBooksByAuthor(author) {
-    return this.books.filter(book => book.author === author);
-}};
+    },  
+};
 
 const universityLibrary = Object.create(library);
 universityLibrary.courses = [];
